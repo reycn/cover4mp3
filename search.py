@@ -5,7 +5,15 @@ import auth
 import json
 
 
+def replace_name(music_name):
+    music_name = music_name.split('[')[0].split(
+        '(')[0].replace(' - ', ' ').replace('_', ' ')
+    # print(music_name)
+    return(music_name)
+
+
 def get_cover(music_name):
+    music_name = replace_name(music_name)
     url = auth.BASE_URL + '/api/search/get'
     data = {
         's': music_name,

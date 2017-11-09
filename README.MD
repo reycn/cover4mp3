@@ -15,6 +15,11 @@ SPEED UP: Configure your NETEASEMUSIC account at `LINE 17` in auth.py to avoid s
 -- For now, songs are searched by <b>FILE NAME</b> (could be easily modified by pressing <b>F2</b>)  
 -- ONLY support mp3  
 -- ONLY fetch album covers from NETEASE MUSIC  
-  
+
+# KNOWN ISSUES
+-- <del>Doesn't support QQMUSIC files' naming pattern</del>  
+-- Songs not in NETEASEMUSIC library might be matched with wrong cover  
+-- Might not work on Windows(due to the installation of dependency? not tested)
+
 # TODO
-Nope,really...
+Nope,really...  

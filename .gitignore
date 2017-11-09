@@ -1,3 +1,6 @@
+songs/*.mp3
+songs/*.jpg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
