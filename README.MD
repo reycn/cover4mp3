@@ -1,3 +1,7 @@
+
+# [Deprecated]
+
+
 # WHAT'S THIS?
 A project aimng at simplify embedding albumn cover for songs downloaded from XIAMI MUSIC or QQ MUSIC, which do not contain full ID3 informations.
   
